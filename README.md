@@ -1,6 +1,23 @@
 <img width="716" height="527" alt="image" src="https://github.com/user-attachments/assets/086e2404-0c07-4154-8802-a599f482b3cc" />
 
 
+
+
+
+Envoriment içerği Discord Devloper Portal Üzeirnden Token alınarak eklenemelidir .gitignordan dolayı api manuel olarak eklenmelidir
+
+Kodun içeirği
+Testler
+Hata Ayıklama
+VeriTabanı
+Kodland Ascii Art
+Ve Main Dosyası olarak birkaç parçaya ayrılır
+
+Kodu ekledkten sonra Sql3 ortam dğeişkeninde kurulu olamlıdır okunabilmesi için tabikide basit bir vscode uzantısı veya pyCharm Aynı İşi görecektir
+
+
+Kod içinde kullanılacak kütüphaneler requmantion dosyasının içinde bulunamktadır.
+
 # Merhaba, DÜnya
 #Python Bot
 Gereksinimler
