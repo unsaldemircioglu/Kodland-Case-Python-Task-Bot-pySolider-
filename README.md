@@ -1,3 +1,6 @@
+<img width="716" height="527" alt="image" src="https://github.com/user-attachments/assets/086e2404-0c07-4154-8802-a599f482b3cc" />
+
+
 # Merhaba, DÜnya
 #Python Bot
 Gereksinimler
