@@ -1,0 +1,9 @@
+discord.py
+python-dotenv
+requests
+os
+dotenv
+discord
+sqlite3
+requests
+logging

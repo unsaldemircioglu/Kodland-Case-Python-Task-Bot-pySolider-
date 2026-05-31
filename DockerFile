@@ -1,0 +1,18 @@
+# Python imajım
+FROM python:3.11-slim
+
+# Çalışma dizini oluştur
+WORKDIR /app
+
+COPY requirements.txt .
+COPY main.py .
+COPY .env .
+
+# Bağımlılıkları yüklemek için
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Ortam değişkenlerini ayarlamak zorunlu değil 
+ENV PYTHONUNBUFFERED=1
+
+# Botu çalıştırmak için
+CMD ["python", "main.py"]

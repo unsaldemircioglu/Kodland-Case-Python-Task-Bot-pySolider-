@@ -1,0 +1,49 @@
+[2026-05-31 01:22:51] [INFO    ] discord.client: logging in using static token
+[2026-05-31 01:22:52] [DEBUG   ] discord.http: GET https://discord.com/api/v10/users/@me with None has returned 200
+[2026-05-31 01:22:52] [DEBUG   ] discord.http: GET /users/@me has found its initial rate limit bucket hash (78bb8553d9352a5a2f89f9def401287a).
+[2026-05-31 01:22:52] [DEBUG   ] discord.http: GET https://discord.com/api/v10/users/@me has received {'id': '1510337028716367953', 'username': 'MüzikRobotu', 'avatar': 'ed305cda50ed763622a794a33cd28dc3', 'discriminator': '9812', 'public_flags': 0, 'flags': 0, 'bot': True, 'banner': None, 'accent_color': None, 'global_name': None, 'avatar_decoration_data': None, 'collectibles': None, 'display_name_styles': None, 'banner_color': None, 'clan': None, 'primary_guild': None, 'mfa_enabled': False, 'locale': 'en-US', 'premium_type': 0, 'email': None, 'verified': True, 'bio': ''}
+[2026-05-31 01:22:52] [DEBUG   ] discord.http: GET https://discord.com/api/v10/oauth2/applications/@me with None has returned 200
+[2026-05-31 01:22:52] [DEBUG   ] discord.http: GET /oauth2/applications/@me has found its initial rate limit bucket hash (d28a133af187e91d71d96a223467ce49).
+[2026-05-31 01:22:52] [DEBUG   ] discord.http: GET https://discord.com/api/v10/oauth2/applications/@me has received {'id': '1510337028716367953', 'name': 'MüzikRobotu', 'icon': 'ed305cda50ed763622a794a33cd28dc3', 'description': '', 'type': None, 'bot': {'id': '1510337028716367953', 'username': 'MüzikRobotu', 'avatar': 'ed305cda50ed763622a794a33cd28dc3', 'discriminator': '9812', 'public_flags': 0, 'flags': 0, 'bot': True, 'banner': None, 'accent_color': None, 'global_name': None, 'avatar_decoration_data': None, 'collectibles': None, 'display_name_styles': None, 'banner_color': None, 'clan': None, 'primary_guild': None}, 'summary': '', 'is_monetized': False, 'is_verified': False, 'is_discoverable': False, 'bot_public': True, 'bot_require_code_grant': False, 'install_params': {'scopes': ['applications.commands'], 'permissions': '0'}, 'integration_types_config': {'0': {'oauth2_install_params': {'scopes': ['applications.commands'], 'permissions': '0'}}, '1': {'oauth2_install_params': {'scopes': ['applications.commands'], 'permissions': '0'}}}, 'verify_key': 'efdc212a4f5a22a0135e18388306b7323f24a9189b615545fb671a421a9dfdc0', 'flags': 0, 'flags_new': '0', 'hook': True, 'storefront_available': False, 'redirect_uris': [], 'interactions_endpoint_url': None, 'role_connections_verification_url': None, 'owner': {'id': '1442631817529131131', 'username': 'unsald', 'avatar': '9ff71168b747ff0ee614f5f8b3b8a02b', 'discriminator': '0', 'public_flags': 0, 'flags': 0, 'banner': None, 'accent_color': 6821913, 'global_name': 'unsald', 'avatar_decoration_data': None, 'collectibles': None, 'display_name_styles': None, 'banner_color': '#681819', 'clan': None, 'primary_guild': None}, 'approximate_guild_count': 0, 'approximate_user_install_count': 0, 'approximate_user_authorization_count': 0, 'interactions_event_types': [], 'interactions_version': 1, 'explicit_content_filter': 0, 'rpc_application_state': 0, 'store_application_state': 1, 'verification_state': 1, 'integration_public': True, 'integration_require_code_grant': False, 'discoverability_state': 1, 'discovery_eligibility_flags': 224, 'monetization_state': 1, 'verification_eligibility_flags': 91036, 'monetization_eligibility_flags': 181988, 'bot_approximate_guild_count': 1, 'team': None, 'internal_guild_restriction': 2, 'approved_consoles': [], 'pricing_localization_strategy': 'localized_price_sets'}
+[2026-05-31 01:22:52] [DEBUG   ] discord.gateway: Created websocket connected to wss://gateway.discord.gg/
+[2026-05-31 01:22:52] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 10, 'd': {'heartbeat_interval': 41250, '_trace': ['["gateway-prd-arm-us-east1-d-gg99",{"micros":0.0}]']}}
+[2026-05-31 01:22:52] [DEBUG   ] discord.gateway: Shard ID None has sent the IDENTIFY payload.
+[2026-05-31 01:22:53] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2026-05-31 01:22:53] [DEBUG   ] discord.gateway: Received WSMessage(type=<WSMsgType.CLOSE: 8>, data=4014, extra='Disallowed intent(s).')
+[2026-05-31 01:22:53] [DEBUG   ] discord.gateway: Websocket closed with 4014, cannot reconnect.
+[2026-05-31 01:22:53] [DEBUG   ] discord.client: Dispatching event disconnect
+2026-05-31 01:34:11,635 WARNING:davey is not installed, voice will NOT be supported
+2026-05-31 01:34:11,636 DEBUG:Using proactor: IocpProactor
+2026-05-31 01:34:11,638 INFO:logging in using static token
+2026-05-31 01:34:13,060 ERROR:Bot ba\u015flat\u0131lamad\u0131: Shard ID None is requesting privileged intents that have not been explicitly enabled in the developer portal. It is recommended to go to https://discord.com/developers/applications/ and explicitly enable the privileged intents within your application's page. If this is not possible, then consider disabling the privileged intents instead.
+2026-05-31 14:48:53,143 WARNING:davey is not installed, voice will NOT be supported
+2026-05-31 14:48:53,144 DEBUG:Using proactor: IocpProactor
+2026-05-31 14:48:53,145 INFO:logging in using static token
+2026-05-31 14:48:55,308 ERROR:Bot ba\u015flat\u0131lamad\u0131: Shard ID None is requesting privileged intents that have not been explicitly enabled in the developer portal. It is recommended to go to https://discord.com/developers/applications/ and explicitly enable the privileged intents within your application's page. If this is not possible, then consider disabling the privileged intents instead.
+2026-05-31 14:51:42,769 WARNING:davey is not installed, voice will NOT be supported
+2026-05-31 14:51:42,770 DEBUG:Using proactor: IocpProactor
+2026-05-31 14:51:42,771 INFO:logging in using static token
+2026-05-31 14:51:44,464 ERROR:Bot ba\u015flat\u0131lamad\u0131: Shard ID None is requesting privileged intents that have not been explicitly enabled in the developer portal. It is recommended to go to https://discord.com/developers/applications/ and explicitly enable the privileged intents within your application's page. If this is not possible, then consider disabling the privileged intents instead.
+2026-05-31 14:52:18,339 WARNING:davey is not installed, voice will NOT be supported
+2026-05-31 14:52:18,340 DEBUG:Using proactor: IocpProactor
+2026-05-31 14:52:18,341 INFO:logging in using static token
+2026-05-31 14:52:20,699 INFO:Shard ID None session has been invalidated.
+2026-05-31 14:52:26,593 ERROR:Bot ba\u015flat\u0131lamad\u0131: Shard ID None is requesting privileged intents that have not been explicitly enabled in the developer portal. It is recommended to go to https://discord.com/developers/applications/ and explicitly enable the privileged intents within your application's page. If this is not possible, then consider disabling the privileged intents instead.
+2026-05-31 14:52:29,084 WARNING:davey is not installed, voice will NOT be supported
+2026-05-31 14:52:29,085 DEBUG:Using proactor: IocpProactor
+2026-05-31 14:52:29,086 INFO:logging in using static token
+2026-05-31 14:52:30,772 ERROR:Bot ba\u015flat\u0131lamad\u0131: Shard ID None is requesting privileged intents that have not been explicitly enabled in the developer portal. It is recommended to go to https://discord.com/developers/applications/ and explicitly enable the privileged intents within your application's page. If this is not possible, then consider disabling the privileged intents instead.
+2026-05-31 14:52:33,024 WARNING:davey is not installed, voice will NOT be supported
+2026-05-31 14:52:33,025 DEBUG:Using proactor: IocpProactor
+2026-05-31 14:52:33,026 INFO:logging in using static token
+2026-05-31 14:52:35,431 INFO:Shard ID None session has been invalidated.
+2026-05-31 14:52:42,636 WARNING:davey is not installed, voice will NOT be supported
+2026-05-31 14:52:42,637 DEBUG:Using proactor: IocpProactor
+2026-05-31 14:52:42,638 INFO:logging in using static token
+2026-05-31 14:52:45,319 INFO:Shard ID None session has been invalidated.
+2026-05-31 14:52:51,678 ERROR:Bot ba\u015flat\u0131lamad\u0131: Shard ID None is requesting privileged intents that have not been explicitly enabled in the developer portal. It is recommended to go to https://discord.com/developers/applications/ and explicitly enable the privileged intents within your application's page. If this is not possible, then consider disabling the privileged intents instead.
+2026-05-31 14:52:52,403 WARNING:davey is not installed, voice will NOT be supported
+2026-05-31 14:52:52,403 DEBUG:Using proactor: IocpProactor
+2026-05-31 14:52:52,404 INFO:logging in using static token
+2026-05-31 14:52:54,616 INFO:Shard ID None session has been invalidated.
+2026-05-31 14:53:00,593 ERROR:Bot ba\u015flat\u0131lamad\u0131: Shard ID None is requesting privileged intents that have not been explicitly enabled in the developer portal. It is recommended to go to https://discord.com/developers/applications/ and explicitly enable the privileged intents within your application's page. If this is not possible, then consider disabling the privileged intents instead.

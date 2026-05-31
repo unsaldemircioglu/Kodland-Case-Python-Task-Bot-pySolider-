@@ -1,0 +1,8 @@
+# Envoriment dosyalarını gizlemek için
+.env
+
+
+#ek olarak
+.build
+.vscode
+.idea       
